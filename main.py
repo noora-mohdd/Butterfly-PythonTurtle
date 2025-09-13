@@ -1,5 +1,5 @@
 import turtle as tur
-#screen setip
+#screen setup
 screen=tur.Screen()
 screen.title("butterfly")
 tur.colormode(255) 
@@ -25,7 +25,6 @@ left_t.penup()
 left_t.goto(0,0)
 left_t.pendown()
 
-
 right_t.lt(45)
 left_t.rt(45)
 right_t.fd(40)
@@ -44,7 +43,6 @@ left_t.penup()
 left_t.goto(-29,-31)
 left_t.pendown()
 
-
 right_t.setheading(45)
 left_t.setheading(135)
 right_t.fd(200)
@@ -53,7 +51,6 @@ right_t.circle(-100,60)
 left_t.circle(100,60)
 right_t.setheading(280)
 left_t.setheading(260)
-
 
 right_t.circle(-150,60)
 left_t.circle(150,60)
@@ -86,8 +83,6 @@ left_t.seth(45)
 right_t.fd(135)
 left_t.fd(135)
 
-
-
 #ANTENNA HEHE
 right_t.penup()
 right_t.goto(15,34)
@@ -116,9 +111,7 @@ left_t.goto(-140,-70)
 right_t.pendown()
 left_t.pendown()
 right_t.circle(50)
-left_t.circle(50)#big circle in top wing
-
-
+left_t.circle(50) #big circle in top wing
 
 left_t.penup()
 right_t.penup()
@@ -128,8 +121,6 @@ left_t.pendown()
 right_t.pendown()
 left_t.circle(20)
 right_t.circle(20)
-
-
 
 left_t.penup()
 right_t.penup()
@@ -150,7 +141,6 @@ left_t.pendown()
 right_t.pendown()
 left_t.circle(30)
 right_t.circle(30)
-
 
 #for the upper details
 left_t.penup()
