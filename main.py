@@ -37,8 +37,6 @@ left_t.fd(150)
 right_t.circle(40,52)
 left_t.circle(-40,52)
 
-
-
 right_t.penup()
 right_t.goto(29,-31)
 right_t.pendown()
