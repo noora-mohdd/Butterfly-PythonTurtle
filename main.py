@@ -131,8 +131,6 @@ right_t.pendown()
 left_t.circle(40)
 right_t.circle(40)
 
-
-
 left_t.penup()
 right_t.penup()
 left_t.goto(-125, -180)
